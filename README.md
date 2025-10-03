@@ -178,5 +178,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Author**: Adarsh Pratap Singh  
-**Contact**: [Your Email]  
+**Contact**: adarshsingh53152@gmail.com  
 **Portfolio**: [adarsh-pratap-singh-portfolio.netlify.app](https://adarsh-pratap-singh-portfolio.netlify.app/)
