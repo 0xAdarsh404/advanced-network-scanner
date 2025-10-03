@@ -1,0 +1,23 @@
+{
+  "scan_info": {
+    "target": "142.250.70.78",
+    "scan_time": "2025-10-03T10:46:57.539498",
+    "total_ports_scanned": 65535,
+    "open_ports_found": 2
+  },
+  "open_ports": [
+    80,
+    443
+  ],
+  "services": {
+    "80": {
+      "service": "HTTPS",
+      "banner": "HTTP/1.1 301 Moved Permanently\r\nLocation: http://www.google.com/\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-FHvzvIl3wo3ajQWXSJ_I7A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp\r\nDate: Fri, 03 Oct 2025 05:16:38 GMT\r\nExpires: Sun, 02 Nov 2025 05:16:38 GMT\r\nCache-Control: public, max-age=2592000\r\nServer: gws\r\nContent-Length: 219\r\nX-XSS-Protection: 0\r\nX-Frame-Options: SAMEORIGIN\r\n\r\n<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>301 Moved</TITLE></HEAD><BODY>\n<H1>301 Moved</H1>\nThe document has moved\n<A HREF=\"http://www.google.com/\">here</A>.\r\n</BODY></HTML>"
+    },
+    "443": {
+      "service": "HTTPS",
+      "banner": "No banner"
+    }
+  },
+  "vulnerabilities": []
+}
